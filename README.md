@@ -5,7 +5,7 @@ ShadowGit + Speedy-Git ( Speedy-Git ver. 3 )
 
 ### ShadowGit
 
-ShadowGit is the new version of Speedy Git. Now the process of commit & push goes in background. 
+This is the new version of Speedy-Git. Now the process of commit & push goes in background. 
 
 ### Speedy-Git
 
