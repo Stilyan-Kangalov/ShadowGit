@@ -1,7 +1,7 @@
 ShadowGit + Speedy-Git ( Speedy-Git ver. 3 )
 ==========
 
-### Speed optimisation tool for custom Github workflow.
+### Speed optimisation tools for custom Github workflow.
 
 ### ShadowGit
 
