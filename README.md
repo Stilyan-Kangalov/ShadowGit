@@ -7,7 +7,7 @@ ShadowGit + Speedy-Git ( Speedy-Git ver. 3 )
 
 This is the new version of Speedy-Git. Now the process of commit & push goes in background.
 
-#### Just run the script and he will "listen" for events in choosen directory. On every event it will trigger automated commit & push to your repository at GitHub!
+#### Just run the script and he will "listen" for events in choosen directory. On every event it will trigger automated commit & push to your repository at GitHub!!
 
 <a href="https://raw.githubusercontent.com/Stilyan-Kangalov/ShadowGit/master/Assets/ShadowGit_shot1.jpg" target="_blank">
 <img src="https://raw.githubusercontent.com/Stilyan-Kangalov/ShadowGit/master/Assets/ShadowGit_shot1.jpg" title="Click to view" /></a>
