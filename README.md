@@ -3,7 +3,7 @@ ShadowGit + Speedy-Git ( Speedy-Git ver. 3 )
 
 ### Speed optimisation tools for custom Github workflow.
 
-### ShadowGit
+### ShadowGit ( + Speedy-Git )
 
 This is the new version of Speedy-Git. Now the process of commit & push goes in background.
 
