@@ -12,5 +12,6 @@ REM add all new files with auto-commit
 call git add .
 call git commit -a -m "Automated commit by Speedy_Git on %currentTime%"
 call git push origin master
+REM bonus time to read the output
 sleep 6
 exit
