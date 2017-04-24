@@ -1,7 +1,7 @@
 @echo off
 REM change the directory
 call G:
-cd G:\Side_Project\Speedy_Git_3.0\ShadowGit
+cd G:\Your_Project\Some_Folder
 REM pick up current status
 call git status
 REM get current time and set it up
