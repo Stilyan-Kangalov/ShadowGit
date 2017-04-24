@@ -13,5 +13,5 @@ call git add .
 call git commit -a -m "Automated commit by Speedy_Git on %currentTime%"
 call git push origin master
 REM bonus time to read the output
-sleep 6
+timeout /t 7
 exit
