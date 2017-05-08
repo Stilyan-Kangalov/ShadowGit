@@ -11,7 +11,11 @@ $dir = Dir.pwd
 approve = ""
 
 FileWatcher.new([$dir]).watch() do |filename, event|
-  puts "Do you approve the new change at to be commited?"
+  hour = Time.new.hour.to_s
+  min = Time.new.min.to_s
+  sec = Time.new.sec.to_s
+  current_time = hour + ":" + min + ":" + sec
+  puts "Do you approve the change at " + current_time + " to be commited?"
   approve = gets.chomp
   if(event == :changed and approve == "y")
     puts "=-=-="
