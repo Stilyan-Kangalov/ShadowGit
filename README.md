@@ -21,4 +21,4 @@ You might be interested with this script, if you work with Git / Github for Wind
 <a href="https://raw.githubusercontent.com/NIO-Design/Batch-Scripts/master/Speedy-Git/Assets/speedy_ssh_full.jpg" target="_blank">
 <img src="https://raw.githubusercontent.com/NIO-Design/Batch-Scripts/master/Speedy-Git/Assets/speedy_ssh_full.jpg" title="Click to view" /></a>
 
-tt1 18
+tt1 19
