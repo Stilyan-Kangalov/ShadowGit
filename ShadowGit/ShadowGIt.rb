@@ -15,7 +15,7 @@ FileWatcher.new([$dir]).watch() do |filename, event|
   min = Time.new.min.to_s
   sec = Time.new.sec.to_s
   current_time = hour + ":" + min + ":" + sec
-  puts "Do you approve the change at " + current_time + " to be commited?"
+  puts "Do you approve the change at " + current_time + " to be commited? (y/n)"
   approve = gets.chomp
   if(event == :changed and approve == "y")
     puts "=-=-="
