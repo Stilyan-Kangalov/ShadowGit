@@ -22,3 +22,4 @@ You might be interested with this script, if you work with Git / Github for Wind
 <img src="https://raw.githubusercontent.com/NIO-Design/Batch-Scripts/master/Speedy-Git/Assets/speedy_ssh_full.jpg" title="Click to view" /></a>
 
 - test case v.1
+- test case v.2
