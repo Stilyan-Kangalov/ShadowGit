@@ -33,7 +33,7 @@ IF "%option%"=="1" (
 	call git push origin master
 	echo =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 	echo.
-	echo ### Great, everything went well! Press any key for exit.
+	echo ### Great, everything went well. Press any key for exit.
 	pause >nul
 ) ELSE IF "%option%"=="2" (
 	REM make new commit with your custom message
@@ -44,13 +44,13 @@ IF "%option%"=="1" (
 	call git push origin master
 	echo =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 	echo.
-	echo ### Great, everything went well! Press any key for exit.
+	echo ### Great, everything went well. Press any key for exit.
 	pause >nul
 ) ELSE IF "%option%"=="3" (
 	call git pull origin master
 	echo =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 	echo.
-	echo ### Great, everything went well! Press any key for exit.
+	echo ### Great, everything went well. Press any key for exit.
 	pause >nul
 ) ELSE IF "%option%"=="4" (
 	echo ### Processing your request...
@@ -61,13 +61,13 @@ IF "%option%"=="1" (
 	timeout /t 5
 	call git push origin master
 	echo.
-	echo ### Great, everything went well! Press any key for exit.
+	echo ### Great, everything went well. Press any key for exit.
 	pause >nul
 ) ELSE IF "%option%"=="5" (
 	call git remote -v
     echo =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 	echo.
-	echo ### Great, everything went well! Press any key for exit.
+	echo ### Great, everything went well. Press any key for exit.
     pause >nul
 ) ELSE IF "%option%"=="6" (
 	set /p "url=### Paste the URL from the original(forked) repo and press Enter:"
@@ -79,13 +79,13 @@ IF "%option%"=="1" (
 	call git remote -v
     echo =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 	echo.
-	echo ### Great, everything went well! Press any key for exit.
+	echo ### Great, everything went well. Press any key for exit.
     pause >nul
 ) ELSE IF "%option%"=="7" (
 	start https://github.com/notifications
 	echo ### Processing your request.
 	echo.
-	echo ### Great, everything went well! Press any key for exit.
+	echo ### Great, everything went well. Press any key for exit.
 	pause >nul
 ) ELSE IF "%option%"=="8" (
 	exit
