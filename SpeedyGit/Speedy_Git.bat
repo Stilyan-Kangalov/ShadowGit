@@ -38,6 +38,7 @@ IF "%option%"=="1" (
 ) ELSE IF "%option%"=="2" (
 	REM make new commit with your custom message
 	set /p "msgline=### Type message for your new commit:"
+	echo ### Processing your request...
 	call git add .
 	call git commit -m "!msgline!"
 	call git push origin master
@@ -52,7 +53,7 @@ IF "%option%"=="1" (
 	echo ### Great, everything went well! Press any key for exit.
 	pause >nul
 ) ELSE IF "%option%"=="4" (
-	echo ### Processing your request.
+	echo ### Processing your request...
     call git fetch upstream
     echo ### All updates are in your upstream branch. Now, press any key to trigger the merge!
     timeout /t -1
