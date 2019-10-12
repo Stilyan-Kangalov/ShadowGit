@@ -1,4 +1,5 @@
 @ECHO OFF
+SETLOCAL EnableDelayedExpansion
 
 echo ##############################################################################
 echo                           ##### Speedy Git #####
@@ -38,7 +39,7 @@ IF "%option%"=="1" (
 	REM make new commit with your custom message
 	set /p "msgline=### Type message for your new commit:"
 	call git add .
-	call git commit -m "%msgline%"
+	call git commit -m "!msgline!"
 	call git push origin master
 	echo =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 	echo.
@@ -69,7 +70,12 @@ IF "%option%"=="1" (
     pause >nul
 ) ELSE IF "%option%"=="6" (
 	set /p "url=### Paste the URL from the original(forked) repo and press Enter:"
-    call git remote add upstream %url%
+    call git remote add upstream !url!
+	echo.
+	echo =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	echo ### List of all remotes:
+	echo.
+	call git remote -v
     echo =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 	echo.
 	echo ### Great, everything went well! Press any key for exit.
